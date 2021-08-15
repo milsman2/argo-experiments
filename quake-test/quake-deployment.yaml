@@ -59,6 +59,7 @@ kind: Service
 metadata:
   name: quakejs
 spec:
+  type: NodePort
   selector:
     run: quakejs
   ports:
