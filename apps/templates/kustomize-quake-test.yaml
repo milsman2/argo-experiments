@@ -13,4 +13,4 @@ spec:
   source:
     path: kustomize-quake-test
     repoURL: https://github.com/milsman2/argo-experiments
-    targetRevision: HEADc
+    targetRevision: HEAD
