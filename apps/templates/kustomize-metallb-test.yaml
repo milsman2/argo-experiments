@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: metallb-test
+  name: kustomize-metallb-test
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: metallb-test
+    path: kustomize-metallb-test
     repoURL: https://github.com/milsman2/argo-experiments
     targetRevision: HEAD
