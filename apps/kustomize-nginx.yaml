@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: kustomize-nginx-test
+  name: kustomize-nginx
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: kustomize-nginx-test
+    path: kustomize-nginx
     repoURL: https://github.com/milsman2/argo-experiments
     targetRevision: HEAD
