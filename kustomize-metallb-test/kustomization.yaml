@@ -6,4 +6,3 @@ namePrefix: kustomize-
 resources:
 - metallb.yaml
 - config.yaml
-- namespace.yaml
