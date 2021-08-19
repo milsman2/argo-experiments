@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: kustomize-quake-test
+    path: kustomize-quake
     repoURL: https://github.com/milsman2/argo-experiments
     targetRevision: HEAD
