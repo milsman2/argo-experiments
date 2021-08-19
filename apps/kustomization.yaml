@@ -3,7 +3,8 @@ kind: Kustomization
 
 resources:
   - cert-manager.yaml
-  - kustomize-kubernetes-ingress-nginx.yaml
-  - kustomize-metallb.yaml
-  - kustomize-nginx.yaml
-  - kustomize-quake.yaml
+  - kubernetes-ingress-nginx.yaml
+  - metallb.yaml
+  - nginx.yaml
+  - quake.yaml
+namePrefix: kustomize-

@@ -1,16 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: kustomize-metallb-test
+  name: kubernetes-ingress-nginx
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: metallb-system
+    namespace: ingress-nginx
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: kustomize-metallb-test
+    path: kustomize-kubernetes-ingress-nginx
     repoURL: https://github.com/milsman2/argo-experiments
     targetRevision: HEAD
