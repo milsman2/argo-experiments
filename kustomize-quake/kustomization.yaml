@@ -3,3 +3,5 @@ kind: Kustomization
 
 resources:
 - quake-deployment.yaml
+- quake-service.yaml
+- quake-configmap.yaml
