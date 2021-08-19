@@ -5,3 +5,4 @@ resources:
 - quake-deployment.yaml
 - quake-service.yaml
 - quake-configmap.yaml
+- quake-ingress.yaml
