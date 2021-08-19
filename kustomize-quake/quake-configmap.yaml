@@ -18,7 +18,7 @@ data:
     server:
       hostname: "quakekube"
       maxClients: 12
-      password: "changeme"
+      password: "MoreQuake!"
     commands:
       - addbot sarge 2
     maps:
