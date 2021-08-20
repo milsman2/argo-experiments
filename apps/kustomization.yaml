@@ -7,5 +7,3 @@ resources:
   - metallb.yaml
   - nginx.yaml
   - quake.yaml
-
-namePrefix: kustomize-
