@@ -7,3 +7,4 @@ resources:
   - metallb.yaml
   - nginx.yaml
   - quake.yaml
+  - nginx-2.yaml
