@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
 - nginx-deployment.yaml
 - nginx-service.yaml
+- nginx-sample-ingress.yaml
