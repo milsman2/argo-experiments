@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
   - https://github.com/jetstack/cert-manager/releases/download/v1.5.0/cert-manager.yaml
   - staging-issuer.yaml
+  - production-issuer.yaml
