@@ -12,5 +12,5 @@ spec:
   project: default
   source:
     path: kube-prometheus-stack
-    repoURL: https://github.com/milsman2/argo-experiments
+    repoURL: https://prometheus-community.github.io/helm-charts
     targetRevision: HEAD
