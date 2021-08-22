@@ -8,3 +8,4 @@ resources:
   - nginx.yaml
   - quake.yaml
   - nginx-2.yaml
+  - kube-prometheus-stack.yaml
