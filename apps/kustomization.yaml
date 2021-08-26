@@ -7,7 +7,3 @@ resources:
   - metallb.yaml
   - nginx.yaml
   - quake.yaml
-  - cert-manager-arm64.yaml
-  - kubernetes-ingress-nginx-arm64.yaml
-  - metallb-arm64.yaml
-  - nginx-arm64.yaml
