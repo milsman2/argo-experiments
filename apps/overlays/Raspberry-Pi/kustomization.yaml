@@ -5,5 +5,5 @@ bases:
 
 patches:
   - patch.yaml
-    target:
-      kind: Application
+      target:
+        kind: Application
