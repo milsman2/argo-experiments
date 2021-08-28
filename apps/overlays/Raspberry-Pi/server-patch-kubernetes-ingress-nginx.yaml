@@ -1,0 +1,7 @@
+  apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: kubernetes-ingress-nginx
+spec:
+  destination:
+    server: https://192.168.30.69:6443
