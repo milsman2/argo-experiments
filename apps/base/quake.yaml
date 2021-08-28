@@ -1,16 +1,15 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cert-manager
+  name: quake
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: cert-manager
-    server: https://kubernetes.default.svc
+    namespace: default
   project: default
   source:
-    path: kustomize-cert-manager
+    path: kustomize-quake
     repoURL: https://github.com/milsman2/argo-experiments
     targetRevision: HEAD
