@@ -3,7 +3,7 @@ kind: Kustomization
 bases:
 - ../../base
 
-patches:
+patchesStategicMerge:
 - server-patch-cert-manager.yaml
 - server-patch-kubernetes-ingress-nginx.yaml
 - server-patch-metallb.yaml
