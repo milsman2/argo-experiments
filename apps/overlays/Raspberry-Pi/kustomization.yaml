@@ -2,3 +2,10 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 bases:
 - ../../base
+
+patches:
+- server-patch-cert-manager.yaml
+- server-patch-kubernetes-ingress-nginx.yaml
+- server-patch-metallb.yaml
+- server-patch-nginx.yaml
+- server-patch-quake.yaml
