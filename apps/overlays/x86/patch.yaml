@@ -5,27 +5,3 @@ metadata:
 spec:
   destination:
     server: https://kubernetes.default.svc
----
-apiVersion: apps/v1
-kind: Application
-metadata:
-  name: kubernetes-ingress-nginx
-spec:
-  destination:
-    server: https://kubernetes.default.svc
----
-apiVersion: apps/v1
-kind: Application
-metadata:
-  name: metallb
-spec:
-  destination:
-    server: https://kubernetes.default.svc
----
-apiVersion: apps/v1
-kind: Application
-metadata:
-  name: nginx
-spec:
-  destination:
-    server: https://kubernetes.default.svc
