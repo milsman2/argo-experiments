@@ -8,6 +8,7 @@ metadata:
 spec:
   destination:
     namespace: cert-manager
+    server: ""
   project: default
   source:
     path: kustomize-cert-manager
