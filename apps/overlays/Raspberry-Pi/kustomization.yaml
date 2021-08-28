@@ -4,6 +4,6 @@ bases:
 - ../../base
 
 patches:
-- path: patch.yaml
+- path: ./patch.yaml
   target:
     kind: Application
