@@ -1,7 +1,0 @@
-apiVersion: apps/v1
-kind: Application
-metadata:
-  name: cert-manager
-spec:
-  destination:
-    server: https://kubernetes.default.svc
