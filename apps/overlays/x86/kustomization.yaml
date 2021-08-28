@@ -3,7 +3,7 @@ kind: Kustomization
 bases:
 - ../../base
 
-patchesStrategicMerge:
+patches:
 - |- 
   apiVersion: apps/v1
   kind: Application
