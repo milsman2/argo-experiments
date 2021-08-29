@@ -8,7 +8,7 @@ metadata:
 spec:
   destination:
     namespace: cert-manager
-    server: https://192.168.30.69
+    server: https://kubernetes.default.svc
   project: default
   source:
     path: kustomize-cert-manager
