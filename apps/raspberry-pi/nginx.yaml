@@ -1,16 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: kubernetes-ingress-nginx-RPi
+  name: nginx-rpi
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: ingress-nginx
+    namespace: default
     server: https://192.168.30.69
   project: default
   source:
-    path: kustomize-kubernetes-ingress-nginx
+    path: kustomize-nginx
     repoURL: https://github.com/milsman2/argo-experiments
     targetRevision: HEAD
