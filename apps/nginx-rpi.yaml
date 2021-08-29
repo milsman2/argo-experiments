@@ -11,6 +11,6 @@ spec:
     server: https://192.168.30.69:6443
   project: default
   source:
-    path: kustomize-nginx
-    repoURL: https://github.com/milsman2/argo-experiments
+    path: nginx-rpi-production
+    repoURL: https://github.com/milsman2/kustomize-nginx-rpi
     targetRevision: HEAD
