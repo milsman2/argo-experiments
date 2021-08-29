@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: kustomize-kubernetes-ingress-nginx
-    repoURL: https://github.com/milsman2/argo-experiments
+    path: kurbernetes-ingress-nginx-x86-production
+    repoURL: https://github.com/milsman2/kustomize-kubernetes-ingress-nginx-x86
     targetRevision: HEAD
