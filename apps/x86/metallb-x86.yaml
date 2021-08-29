@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: kustomize-metallb/overlays/x86
+    path: kustomize-metallb
     repoURL: https://github.com/milsman2/argo-experiments
     targetRevision: HEAD

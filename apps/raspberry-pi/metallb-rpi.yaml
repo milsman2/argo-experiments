@@ -11,6 +11,6 @@ spec:
     server: https://192.168.30.69:6443
   project: default
   source:
-    path: kustomize-metallb/overlays/raspberry-pi
+    path: kustomize-metallb
     repoURL: https://github.com/milsman2/argo-experiments
     targetRevision: HEAD
