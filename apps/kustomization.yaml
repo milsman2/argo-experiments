@@ -3,4 +3,4 @@ kind: Kustomization
 
 bases:
 - ./x86
-- ./Raspberry-Pi
+- ./raspberry-pi
