@@ -11,6 +11,6 @@ spec:
     server: https://192.168.30.69:6443
   project: default
   source:
-    path: kubernetes-ingress-nginx-rpi-production
+    path: kurbernetes-ingress-nginx-rpi-production
     repoURL: https://github.com/milsman2/kubernetes-ingress-nginx-rpi
     targetRevision: HEAD
