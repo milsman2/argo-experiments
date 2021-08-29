@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: kustomize-cert-manager
-    repoURL: https://github.com/milsman2/argo-experiments
+    path: cert-manager-x86-production
+    repoURL: https://github.com/milsman2/kustomize-cert-manager-x86
     targetRevision: HEAD

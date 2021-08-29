@@ -12,5 +12,5 @@ spec:
   project: default
   source:
     path: kurbernetes-ingress-nginx-rpi-production
-    repoURL: https://github.com/milsman2/kubernetes-ingress-nginx-rpi
+    repoURL: https://github.com/milsman2/kustomize-kubernetes-ingress-nginx-rpi
     targetRevision: HEAD
