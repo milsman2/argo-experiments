@@ -3,4 +3,4 @@ kind: Kustomization
 
 resources:
 - ./x86
-- ./Rasperry-Pi
+- ./Raspberry-Pi
