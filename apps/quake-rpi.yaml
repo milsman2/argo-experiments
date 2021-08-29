@@ -2,15 +2,15 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   namespace: argocd
-  name: metallb-x86
+  name: quake-rpi
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: metallb-system
-    server: https://kubernetes.default.svc
+    namespace: default
+    name: https://192.168.30.69:6443
   project: default
   source:
-    path: kustomize-metallb/overlays/x86
+    path: kustomize-quake
     repoURL: https://github.com/milsman2/argo-experiments
     targetRevision: HEAD

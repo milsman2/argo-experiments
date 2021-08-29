@@ -7,3 +7,8 @@ resources:
   - metallb.yaml
   - nginx.yaml
   - quake.yml
+  - cert-manager-rpi.yaml
+  - kubernetes-ingress-nginx-rpi.yaml
+  - metallb-rpi.yaml
+  - nginx-rpi.yaml
+  - quake-rpi.yml
