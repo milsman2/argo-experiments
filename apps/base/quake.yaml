@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: quake-rpi
+  name: quake
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     namespace: default
-    server: https://192.168.30.69:6443
+    server: https://kubernetes.default.svc
   project: default
   source:
     path: kustomize-quake
