@@ -11,4 +11,4 @@ resources:
   - kubernetes-ingress-nginx-rpi.yaml
   - metallb-rpi.yaml
   - nginx-rpi.yaml
-  - quake-rpi.yml
+  - quake-rpi.yaml
