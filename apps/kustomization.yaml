@@ -6,7 +6,3 @@ resources:
   - kubernetes-ingress-nginx.yaml
   - metallb.yaml
   - nginx.yaml
-  - cert-manager-rpi.yaml
-  - kubernetes-ingress-nginx-rpi.yaml
-  - metallb-rpi.yaml
-  - nginx-rpi.yaml
