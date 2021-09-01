@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: cert-manager-x86-production
-    repoURL: https://github.com/milsman2/kustomize-cert-manager-x86
+    path: kustomize-cert-manager
+    repoURL: https://github.com/milsman2/kustomize-cert-manager
     targetRevision: HEAD

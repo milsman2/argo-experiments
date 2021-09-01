@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: metallb-x86-production
-    repoURL: https://github.com/milsman2/kustomize-metallb-x86
+    path: kustomize-metallb
+    repoURL: https://github.com/milsman2/kustomize-metallb
     targetRevision: HEAD
