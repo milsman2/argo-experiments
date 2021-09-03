@@ -8,9 +8,8 @@ metadata:
 spec:
   destination:
     namespace: default
-    server: https://kubernetes.default.svc
   project: default
   source:
-    path: kustomize-nginx
+    path: nginx-rpi-production
     repoURL: https://github.com/milsman2/kustomize-nginx
     targetRevision: HEAD

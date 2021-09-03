@@ -8,9 +8,8 @@ metadata:
 spec:
   destination:
     namespace: ingress-nginx
-    server: https://kubernetes.default.svc
   project: default
   source:
-    path: kurbernetes-ingress-nginx
-    repoURL: https://github.com/milsman2/kustomize-kubernetes-ingress
+    path: kurbernetes-ingress-nginx-x86-production
+    repoURL: https://github.com/milsman2/kustomize-kubernetes-ingress-nginx
     targetRevision: HEAD
