@@ -4,5 +4,5 @@ kind: Kustomization
 bases:
 - ../../base
 
-patchesStrategicMarge:
+patchesStrategicMerge:
 - config.yaml
