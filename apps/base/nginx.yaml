@@ -8,7 +8,6 @@ metadata:
 spec:
   destination:
     namespace: default
-    server: https://kubernetes.default.svc
   project: default
   source:
     path: nginx-rpi-production

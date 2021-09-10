@@ -3,3 +3,8 @@ kind: Kustomization
 
 bases:
 - ../../base
+
+patches:
+  - path: patch.yaml
+    target:
+      kind: Application
