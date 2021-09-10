@@ -5,4 +5,5 @@ metadata:
   namespace: argocd
 spec:
   destination:
+    namespace: nginx
     server: https://192.168.30.69:6443
