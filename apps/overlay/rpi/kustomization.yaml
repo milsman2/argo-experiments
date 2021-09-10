@@ -5,4 +5,7 @@ bases:
 - ../../base
 
 patchesStrategicMerge:
-- config.yaml
+- cert-manager-patch.yaml
+- kubernetes-ingress-nginx-patch.yaml
+- metallb-patch.yaml
+- nginx-patch.yaml
