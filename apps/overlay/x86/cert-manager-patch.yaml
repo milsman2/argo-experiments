@@ -5,3 +5,6 @@ metadata:
 spec:
   source:
     path: cert-manager-x86-production
+spec:
+  destination:
+    namespace: cert-manager
