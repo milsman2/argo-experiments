@@ -10,6 +10,5 @@ spec:
     namespace: default
   project: default
   source:
-    path: nginx-rpi-production
     repoURL: https://github.com/milsman2/kustomize-nginx
     targetRevision: HEAD
