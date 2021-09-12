@@ -7,9 +7,6 @@ bases:
 nameSuffix: -x86
 
 patches:
-  - path: patch.yaml
-    target:
-      kind: Application
   - path: kubernetes-ingress-nginx-patch.yaml
     target:
       kind: Application
