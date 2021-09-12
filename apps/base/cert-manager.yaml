@@ -5,9 +5,6 @@ metadata:
   name: cert-manager
   finalizers:
   - resources-finalizer.argocd.argoproj.io
-spec:
-  destination:
-    namespace: cert-manager
   project: default
   source:
     repoURL: https://github.com/milsman2/kustomize-cert-manager
