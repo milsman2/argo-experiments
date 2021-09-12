@@ -10,3 +10,19 @@ patches:
   - path: patch.yaml
     target:
       kind: Application
+  - path: kubernetes-ingress-nginx-patch.yaml
+    target:
+      kind: Application
+      name: kubernetes-ingress-nginx
+  - path: cert-manager-patch.yaml
+    target:
+      kind: Application
+      name: cert-manager
+  - path: metallb-patch.yaml
+    target:
+      kind: Application
+      name: metallb
+  - path: nginx-patch.yaml
+    target:
+      kind: Application
+      name: nginx
