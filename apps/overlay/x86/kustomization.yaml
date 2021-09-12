@@ -17,7 +17,7 @@ patches:
   - path: cert-manager-patch.yaml
     target:
       kind: Application
-      name: cert-manager-x86
+      name: cert-manager
   - path: metallb-patch.yaml
     target:
       kind: Application
