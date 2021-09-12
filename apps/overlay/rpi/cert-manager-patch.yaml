@@ -5,3 +5,6 @@ metadata:
 spec:
   source:
     path: cert-manager-rpi-production
+spec:
+  destination:
+    namespace: cert-manager
