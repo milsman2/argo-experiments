@@ -4,8 +4,6 @@ kind: Kustomization
 bases:
 - ../../base
 
-nameSuffix: -x86
-
 patches:
   - path: patch.yaml
     target:
