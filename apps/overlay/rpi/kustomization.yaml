@@ -4,8 +4,6 @@ kind: Kustomization
 bases:
 - ../../base
 
-nameSuffix: -rpi
-
 patches:
   - path: patch.yaml
     target:
