@@ -10,6 +10,5 @@ spec:
     namespace: ingress-nginx
   project: default
   source:
-    path: kurbernetes-ingress-nginx-x86-production
     repoURL: https://github.com/milsman2/kustomize-kubernetes-ingress-nginx
     targetRevision: HEAD
