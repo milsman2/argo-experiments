@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: kurbernetes-ingress-nginx-rpi-production
+    path: kubernetes-ingress-nginx-rpi-production
