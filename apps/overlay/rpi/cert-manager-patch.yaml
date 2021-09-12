@@ -3,5 +3,5 @@ kind: Application
 metadata:
   name: not-used
 spec:
-  destination:
+  source:
     path: cert-manager-rpi-production
