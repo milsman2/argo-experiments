@@ -5,4 +5,3 @@ metadata:
 spec:
   destination:
     server: https://kubernetes.default.svc
-    path: kurbernetes-ingress-nginx-x86-production
