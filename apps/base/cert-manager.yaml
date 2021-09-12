@@ -10,6 +10,5 @@ spec:
     namespace: cert-manager
   project: default
   source:
-    path: cert-manager-x86-production
     repoURL: https://github.com/milsman2/kustomize-cert-manager
     targetRevision: HEAD
