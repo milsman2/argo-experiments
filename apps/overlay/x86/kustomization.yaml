@@ -14,10 +14,10 @@ patches:
     target:
       kind: Application
       name: kubernetes-ingress-nginx
-  - path: cert-manager-patch-x86.yaml
+  - path: cert-manager-patch.yaml
     target:
       kind: Application
-      name: cert-manager
+      name: cert-manager-x86
   - path: metallb-patch.yaml
     target:
       kind: Application
