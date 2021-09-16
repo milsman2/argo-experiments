@@ -26,3 +26,7 @@ patches:
     target:
       kind: Application
       name: nginx
+  - path: longhorn-patch.yaml
+    target:
+      kind: Application
+      name: longhorn
