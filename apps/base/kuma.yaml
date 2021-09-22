@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: uptime-kuma
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  project: default
+  destination:
+    namespace: uptime-kuma
+  source:
+    repoURL: https://github.com/milsman2/kustomize-kuma
+    targetRevision: HEAD
