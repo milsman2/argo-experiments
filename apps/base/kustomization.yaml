@@ -7,3 +7,4 @@ resources:
   - metallb.yaml
   - nginx.yaml
   - longhorn.yaml
+  - kuma.yaml
