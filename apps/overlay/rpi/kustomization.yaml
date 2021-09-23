@@ -33,4 +33,4 @@ patches:
   - path: kuma-patch.yaml
     target:
       kind: Application
-      name: kuma-uptime
+      name: uptime-kuma
