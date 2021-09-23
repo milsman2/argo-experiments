@@ -30,3 +30,7 @@ patches:
     target:
       kind: Application
       name: longhorn
+  - path: kuma-patch.yaml
+    target:
+      kind: Application
+      name: kuma-uptime
