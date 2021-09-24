@@ -1,0 +1,7 @@
+piVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: not-used
+spec:
+  source:
+    path: kubegres-x86-production
