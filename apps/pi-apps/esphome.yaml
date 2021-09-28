@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  namespace: esphome
+  namespace: argocd
   name: esphome
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -10,5 +10,5 @@ spec:
   destination:
     namespace: esphome
   source:
-    repoURL: https://github.com/milsman2/kustomize-esphome
+    repoURL: https://github.com/milsman2/esphome
     targetRevision: HEAD
