@@ -3,3 +3,4 @@ kind: Kustomization
 
 resources:
   - esphome.yaml
+  - home-assistant.yaml
