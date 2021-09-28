@@ -39,3 +39,11 @@ patches:
     target:
       kind: Application
       name: kubegres
+  - path: home-assistant-patch.yaml
+    target:
+      kind: Application
+      name: home-assistant
+  - path: esphome-patch.yaml
+    target:
+      kind: Application
+      name: esphome
