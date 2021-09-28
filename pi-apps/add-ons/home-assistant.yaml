@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: home-assistant
+  name: home-assistant
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  project: default
+  destination:
+    namespace: home-assistant
+  source:
+    repoURL: https://github.com/milsman2/kustomize-esphome
+    targetRevision: HEAD
