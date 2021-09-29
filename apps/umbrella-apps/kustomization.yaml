@@ -8,4 +8,3 @@ resources:
   - nginx.yaml
   - longhorn.yaml
   - kuma.yaml
-  - kubegres.yaml
