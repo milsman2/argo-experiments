@@ -34,7 +34,3 @@ patches:
     target:
       kind: Application
       name: uptime-kuma
-  - path: kubegres-patch.yaml
-    target:
-      kind: Application
-      name: kubegres
