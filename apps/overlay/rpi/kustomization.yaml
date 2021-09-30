@@ -3,7 +3,7 @@ kind: Kustomization
 
 bases:
 - ../../umbrella-apps
-- ../../pi-apps
+#- ../../pi-apps
 
 nameSuffix: -rpi
 
@@ -35,11 +35,11 @@ patches:
     target:
       kind: Application
       name: uptime-kuma
-  - path: home-assistant-patch.yaml
-    target:
-      kind: Application
-      name: home-assistant
-  - path: esphome-patch.yaml
-    target:
-      kind: Application
-      name: esphome
+ # - path: home-assistant-patch.yaml
+ #   target:
+ #     kind: Application
+ #     name: home-assistant
+ # - path: esphome-patch.yaml
+ #   target:
+ #     kind: Application
+ #     name: esphome
