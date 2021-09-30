@@ -39,7 +39,7 @@ patches:
     target:
       kind: Application
       name: home-assistant
- # - path: esphome-patch.yaml
- #   target:
- #     kind: Application
- #     name: esphome
+  - path: esphome-patch.yaml
+    target:
+      kind: Application
+      name: esphome
