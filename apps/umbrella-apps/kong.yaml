@@ -2,13 +2,13 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   namespace: argocd
-  name: ambassador
+  name: kong
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   destination:
-    namespace: ambassador
+    namespace: kong
   source:
-    repoURL: https://github.com/milsman2/ambassador
+    repoURL: https://github.com/milsman2/kong
     targetRevision: HEAD
