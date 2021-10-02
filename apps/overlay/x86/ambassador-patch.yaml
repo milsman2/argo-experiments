@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: ambassador-x86-production
+    path: aong-x86-production
