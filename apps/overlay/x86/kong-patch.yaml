@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: aong-x86-production
+    path: kong-x86-production
