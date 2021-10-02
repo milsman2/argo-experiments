@@ -3,8 +3,8 @@ kind: Kustomization
 
 resources:
   - cert-manager.yaml
-  - kubernetes-ingress-nginx.yaml
   - metallb.yaml
   - nginx.yaml
   - longhorn.yaml
   - kuma.yaml
+  - ambassador.yaml
