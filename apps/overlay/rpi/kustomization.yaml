@@ -11,10 +11,10 @@ patches:
   - path: patch.yaml
     target:
       kind: Application
-  - path: kubernetes-ingress-nginx-patch.yaml
+  - path: ambassador-patch.yaml
     target:
       kind: Application
-      name: kubernetes-ingress-nginx
+      name: ambassador
   - path: cert-manager-patch.yaml
     target:
       kind: Application
