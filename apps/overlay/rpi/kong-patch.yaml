@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: ambassador-rpi-production
+    path: kong-rpi-production
