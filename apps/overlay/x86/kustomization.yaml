@@ -10,10 +10,10 @@ patches:
   - path: patch.yaml
     target:
       kind: Application
-  - path: ambassador-patch.yaml
+  - path: kong-patch.yaml
     target:
       kind: Application
-      name: ambassador
+      name: kong
   - path: cert-manager-patch.yaml
     target:
       kind: Application
