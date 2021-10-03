@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: kubegres-rpi-production
+    path: kubegres
