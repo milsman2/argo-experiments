@@ -43,3 +43,7 @@ patches:
     target:
       kind: Application
       name: esphome
+  - path: kubegres-patch.yaml
+    target:
+      kind: Application
+      name: kubegres
