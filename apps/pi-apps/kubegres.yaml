@@ -10,5 +10,5 @@ spec:
   destination:
     namespace: kubegres-system
   source:
-    repoURL: https://github.com/milsman2/kubegres
+    repoURL: https://github.com/milsman2/rpi-applications
     targetRevision: HEAD
