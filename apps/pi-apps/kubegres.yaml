@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: kubegres
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  project: default
+  destination:
+    namespace: kubegres-system
+  source:
+    repoURL: https://github.com/milsman2/kubegres
+    targetRevision: HEAD
