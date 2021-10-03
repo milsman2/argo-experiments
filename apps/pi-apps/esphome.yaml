@@ -10,5 +10,5 @@ spec:
   destination:
     namespace: esphome
   source:
-    repoURL: https://github.com/milsman2/esphome
+    repoURL: https://github.com/milsman2/rpi-applications
     targetRevision: HEAD
