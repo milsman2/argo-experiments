@@ -6,3 +6,4 @@ resources:
   - metallb.yaml
   - nginx.yaml
   - longhorn.yaml
+  - kong.yaml
