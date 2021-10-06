@@ -11,10 +11,10 @@ patches:
   - path: patch.yaml
     target:
       kind: Application
-  - path: kong-patch.yaml
+  - path: mysql-patch.yaml
     target:
       kind: Application
-      name: kong
+      name: mysql
   - path: cert-manager-patch.yaml
     target:
       kind: Application
@@ -31,19 +31,5 @@ patches:
     target:
       kind: Application
       name: longhorn
-  - path: kuma-patch.yaml
-    target:
-      kind: Application
-      name: uptime-kuma
-  - path: home-assistant-patch.yaml
-    target:
-      kind: Application
-      name: home-assistant
-  - path: esphome-patch.yaml
-    target:
-      kind: Application
-      name: esphome
-  - path: kubegres-patch.yaml
-    target:
-      kind: Application
-      name: kubegres
+
+
