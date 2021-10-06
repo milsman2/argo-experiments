@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: rpi-mysql
+    path: rpi-mysql-production
