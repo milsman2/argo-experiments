@@ -6,3 +6,4 @@ resources:
   - metallb.yaml
   - longhorn.yaml
   - ingress-nginx.yaml
+  - mysql.yaml
