@@ -1,7 +1,0 @@
-apiVersion: argoproj.io/v1alpha1
-kind: Application
-metadata:
-  name: not-used
-spec:
-  source:
-    path: kong-x86-production
