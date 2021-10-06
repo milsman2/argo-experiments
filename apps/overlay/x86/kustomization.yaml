@@ -10,10 +10,10 @@ patches:
   - path: patch.yaml
     target:
       kind: Application
-  - path: kong-patch.yaml
+  - path: mysql-patch.yaml
     target:
       kind: Application
-      name: kong
+      name: mysql
   - path: cert-manager-patch.yaml
     target:
       kind: Application
