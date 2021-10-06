@@ -10,5 +10,5 @@ spec:
   destination:
     namespace: ingress-nginx
   source:
-    repoURL: https://github.com/milsman2/ingress-nginx
+    repoURL: https://github.com/milsman2/argo-experiments
     targetRevision: HEAD
