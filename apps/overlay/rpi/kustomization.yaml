@@ -23,10 +23,10 @@ patches:
     target:
       kind: Application
       name: metallb
-  - path: nginx-patch.yaml
+  - path: ingress-nginx-patch.yaml
     target:
       kind: Application
-      name: nginx
+      name: ingress-nginx
   - path: longhorn-patch.yaml
     target:
       kind: Application
