@@ -29,4 +29,4 @@ patches:
   - path: ingress-nginx-patch.yaml
     target:
       kind: Application
-      name: ingress-nginx-patch
+      name: ingress-nginx
