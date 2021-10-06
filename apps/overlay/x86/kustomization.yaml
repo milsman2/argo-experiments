@@ -22,15 +22,7 @@ patches:
     target:
       kind: Application
       name: metallb
-  - path: nginx-patch.yaml
-    target:
-      kind: Application
-      name: nginx
   - path: longhorn-patch.yaml
     target:
       kind: Application
       name: longhorn
-  - path: kuma-patch.yaml
-    target:
-      kind: Application
-      name: uptime-kuma
