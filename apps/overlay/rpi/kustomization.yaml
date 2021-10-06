@@ -3,7 +3,7 @@ kind: Kustomization
 
 bases:
 - ../../umbrella-apps
-#- ../../pi-apps
+- ../../pi-apps
 
 nameSuffix: -rpi
 
@@ -31,5 +31,8 @@ patches:
     target:
       kind: Application
       name: longhorn
-
+  - path: ghost-patch.yaml
+    target:
+      kind: Application
+      name: ghost
 
