@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: mysql
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: mysql
+  project: default
+  source:
+    repoURL: https://github.com/milsman2/mysql
+    targetRevision: HEAD
