@@ -26,3 +26,7 @@ patches:
     target:
       kind: Application
       name: ingress-nginx
+  - path: linkerd-patch.yaml
+    target:
+      kind: Application
+      name: linkerd
