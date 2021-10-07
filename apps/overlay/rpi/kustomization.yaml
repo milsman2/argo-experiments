@@ -31,4 +31,7 @@ patches:
     target:
       kind: Application
       name: ghost
-
+  - path: linkerd-patch.yaml
+    target:
+      kind: Application
+      name: linkerd
