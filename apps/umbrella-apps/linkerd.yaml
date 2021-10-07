@@ -10,5 +10,5 @@ spec:
     namespace: linkerd
   project: default
   source:
-    repoURL: https://github.com/milsman2/linkder2
+    repoURL: https://github.com/milsman2/linkerd2
     targetRevision: HEAD
