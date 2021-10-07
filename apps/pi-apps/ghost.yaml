@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   destination:
-    namespace: mysql
+    namespace: ghost
   source:
     repoURL: https://github.com/milsman2/rpi-applications
     targetRevision: HEAD
