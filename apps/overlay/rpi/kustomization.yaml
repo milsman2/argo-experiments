@@ -11,10 +11,6 @@ patches:
   - path: patch.yaml
     target:
       kind: Application
-  - path: mysql-patch.yaml
-    target:
-      kind: Application
-      name: mysql
   - path: cert-manager-patch.yaml
     target:
       kind: Application
