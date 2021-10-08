@@ -3,7 +3,7 @@ kind: Kustomization
 
 bases:
 - ../../umbrella-apps
-- ../../pi-apps
+#- ../../pi-apps
 
 nameSuffix: -rpi
 
