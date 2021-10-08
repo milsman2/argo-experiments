@@ -27,10 +27,6 @@ patches:
     target:
       kind: Application
       name: longhorn
-  - path: ghost-patch.yaml
-    target:
-      kind: Application
-      name: ghost
   - path: linkerd-patch.yaml
     target:
       kind: Application
