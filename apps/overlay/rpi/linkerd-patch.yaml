@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: linkerd-rpi-production
+    path: linkerd-rpi-production/linkerd2
