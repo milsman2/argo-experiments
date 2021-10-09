@@ -30,7 +30,7 @@ patches:
     target:
       kind: Application
       name: linkerd
-  - path: linkerd--cni-patch.yaml
+  - path: linkerd-cni-patch.yaml
     target:
       kind: Application
       name: linkerd2-cni
