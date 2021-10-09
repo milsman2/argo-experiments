@@ -7,4 +7,4 @@ resources:
   - longhorn.yaml
   - ingress-nginx.yaml
   - linkerd2-cni.yaml
-  - linkerd2.yaml
+  - linkerd.yaml
