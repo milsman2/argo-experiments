@@ -34,4 +34,4 @@ patches:
   - path: linkerd2-cni-patch.yaml
     target:
       kind: Application
-      name: linkerd
+      name: linkerd2-cni
