@@ -6,5 +6,4 @@ resources:
   - metallb.yaml
   - longhorn.yaml
   - ingress-nginx.yaml
-  - linkerd.yaml
-  - linkerd2-cni.yaml
+
