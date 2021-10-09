@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: linkerd-x86-production/linkerd2-cni
+    path: linkerd-rpi-production/linkerd2-cni
