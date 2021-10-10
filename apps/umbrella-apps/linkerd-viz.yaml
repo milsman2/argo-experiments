@@ -10,7 +10,7 @@ spec:
     namespace: linkerd-viz
   project: default
   source:
-    repoURL: https://github.com/milsman2/linkerd3
+    repoURL: https://github.com/milsman2/linkerd2
     targetRevision: HEAD
   syncPolicy:
     automated:
