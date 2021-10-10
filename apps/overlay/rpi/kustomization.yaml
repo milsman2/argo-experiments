@@ -35,3 +35,7 @@ patches:
     target:
       kind: Application
       name: linkerd2-cni
+  - path: linkerd-viz-patch.yaml
+    target:
+      kind: Application
+      name: linkerd-viz
