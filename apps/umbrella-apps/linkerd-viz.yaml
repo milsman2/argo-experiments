@@ -12,3 +12,7 @@ spec:
   source:
     repoURL: https://github.com/milsman2/linkerd-viz
     targetRevision: HEAD
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
