@@ -8,3 +8,4 @@ resources:
   - ingress-nginx.yaml
   - linkerd2-cni.yaml
   - linkerd.yaml
+  - linkerd-viz.yaml
