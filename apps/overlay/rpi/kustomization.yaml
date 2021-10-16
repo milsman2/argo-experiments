@@ -39,7 +39,7 @@ patches:
     target:
       kind: Application
       name: linkerd-viz
-   - path: linkerd-ingress-patch.yaml
+  - path: linkerd-ingress-patch.yaml
     target:
       kind: Application
       name: linkerd-ingress
