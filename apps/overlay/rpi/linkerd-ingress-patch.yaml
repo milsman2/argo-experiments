@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: linkerd-x86-production/linkerd-ingress
+    path: linkerd-rpi-production/linkerd-ingress
