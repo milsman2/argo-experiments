@@ -10,7 +10,7 @@ spec:
   destination:
     namespace: cert-manager
   source:
-    repoURL: https://github.com/milsman2/kustomize-cert-manager
+    repoURL: https://github.com/milsman2/cert-manager
     targetRevision: HEAD
   syncPolicy:
     automated:
