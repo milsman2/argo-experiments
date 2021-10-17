@@ -3,6 +3,7 @@ kind: Kustomization
 
 bases:
 - ../../umbrella-apps
+- ../../amd64-apps
 
 nameSuffix: -x86
 
