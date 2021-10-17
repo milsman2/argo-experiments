@@ -10,7 +10,7 @@ spec:
     namespace: longhorn-system
   project: default
   source:
-    repoURL: https://github.com/milsman2/kustomize-longhorn
+    repoURL: https://github.com/milsman2/longhorn
     targetRevision: HEAD
   syncPolicy:
     automated:
