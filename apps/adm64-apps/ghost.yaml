@@ -10,6 +10,7 @@ spec:
     namespace: ghost
   project: default
   source:
+    path: ghost
     repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
   syncPolicy:
