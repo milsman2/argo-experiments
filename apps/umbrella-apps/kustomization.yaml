@@ -4,7 +4,7 @@ kind: Kustomization
 resources:
   - cert-manager.yaml
   - metallb.yaml
- # - longhorn.yaml
+  - longhorn.yaml
   - ingress-nginx.yaml
   - linkerd2-cni.yaml
   - linkerd.yaml
