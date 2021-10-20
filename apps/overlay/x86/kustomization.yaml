@@ -5,7 +5,7 @@ bases:
 - ../../umbrella-apps
 - ../../amd64-apps
 
-nameSuffix: -x86
+nameSuffix: -amd64
 
 patches:
   - path: patch.yaml
