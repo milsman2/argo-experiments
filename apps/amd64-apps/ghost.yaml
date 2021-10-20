@@ -10,7 +10,7 @@ spec:
     namespace: ghost
   project: default
   source:
-    path: ghost
+    path: ghost/helm
     repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
   syncPolicy:
