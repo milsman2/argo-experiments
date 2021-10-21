@@ -3,4 +3,4 @@ kind: Kustomization
 
 resources:
   - ghost.yaml
-  - cert-manager-amd64.yaml
+  - cert-manager.yaml
