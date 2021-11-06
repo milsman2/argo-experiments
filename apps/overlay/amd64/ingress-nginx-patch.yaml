@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: ingress-nginx-x86-production
+    path: ingress-nginx-amd64-production
