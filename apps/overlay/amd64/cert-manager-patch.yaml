@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: cert-manager-x86-production
+    path: cert-manager-amd64-production
