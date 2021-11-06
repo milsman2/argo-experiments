@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: mysql-x86-production
+    path: mysql-amd64-production
