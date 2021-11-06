@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: longhorn-x86-production
+    path: longhorn-amd64-production
