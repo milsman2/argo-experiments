@@ -26,4 +26,4 @@ patches:
   - path: ingress-nginx-patch.yaml
     target:
       kind: Application
-      name: longhorn
+      name: ingress-nginx
