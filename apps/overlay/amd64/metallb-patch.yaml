@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: metallb-x86-production
+    path: metallb-amd64-production
