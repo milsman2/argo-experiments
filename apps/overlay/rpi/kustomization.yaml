@@ -27,19 +27,3 @@ patches:
     target:
       kind: Application
       name: longhorn
-  - path: linkerd-patch.yaml
-    target:
-      kind: Application
-      name: linkerd
-  - path: linkerd2-cni-patch.yaml
-    target:
-      kind: Application
-      name: linkerd2-cni
-  - path: linkerd-viz-patch.yaml
-    target:
-      kind: Application
-      name: linkerd-viz
-  - path: linkerd-ingress-patch.yaml
-    target:
-      kind: Application
-      name: linkerd-ingress
