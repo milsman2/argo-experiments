@@ -4,4 +4,4 @@ metadata:
   name: not-used
 spec:
   source:
-    path: nginx-x86-production
+    path: nginx-amd64-production
