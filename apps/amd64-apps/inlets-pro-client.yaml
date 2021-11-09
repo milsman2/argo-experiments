@@ -7,13 +7,9 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: default
+    namespace: ingress-nginx
   project: default
   source:
     path: inlets-pro-client
     repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
-  syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
