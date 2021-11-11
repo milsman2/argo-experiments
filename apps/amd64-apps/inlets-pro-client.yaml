@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   namespace: argocd
-  name: inlets-pro-client
+  name: inlets-operator
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
@@ -10,6 +10,6 @@ spec:
     namespace: ingress-nginx
   project: default
   source:
-    path: inlets-pro-client
+    path: inlets-operator
     repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
