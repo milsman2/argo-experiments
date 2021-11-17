@@ -7,3 +7,4 @@ resources:
   - inlets-pro-client.yaml
   - nginx.yaml
   - quake-kube.yaml
+  - openfaas.yaml
