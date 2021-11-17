@@ -6,3 +6,4 @@ resources:
   - cert-manager-issuers.yaml
   - inlets-pro-client.yaml
   - nginx.yaml
+  - quake-kube.yaml
