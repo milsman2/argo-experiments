@@ -7,7 +7,7 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: inlets-pro-client
+    namespace: ingress-nginx
   project: default
   source:
     path: inlets-pro-client
