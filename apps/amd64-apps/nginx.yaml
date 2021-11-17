@@ -8,8 +8,8 @@ metadata:
 spec:
   destination:
     namespace: default
-  project: nginx
+  project: default
   source:
-    path: inlets-pro-client
+    path: nginx
     repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
