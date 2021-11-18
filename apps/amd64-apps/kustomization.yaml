@@ -8,3 +8,4 @@ resources:
   - nginx.yaml
   - quake-kube.yaml
   - openfaas.yaml
+  - grafana.yaml
