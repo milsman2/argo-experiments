@@ -11,5 +11,5 @@ spec:
   project: default
   source:
     path: grafana
-    repoURL: https://github.com/milsman2/amd64-apps/
+    repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
