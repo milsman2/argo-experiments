@@ -10,4 +10,5 @@ resources:
   - openfaas.yaml
   - grafana.yaml
   - kubegres.yaml
+  - seafile.yaml
  # - prometheus-node-exporter.yaml
