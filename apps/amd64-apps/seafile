@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: seafile
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: seafile
+  project: default
+  source:
+    path: seafile
+    repoURL: https://github.com/milsman2/amd64-apps
+    targetRevision: HEAD
