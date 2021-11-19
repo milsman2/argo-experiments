@@ -9,4 +9,5 @@ resources:
   - quake-kube.yaml
   - openfaas.yaml
   - grafana.yaml
+  - kubegres.yaml
  # - prometheus-node-exporter.yaml
