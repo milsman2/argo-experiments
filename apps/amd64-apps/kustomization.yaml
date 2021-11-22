@@ -11,3 +11,4 @@ resources:
   - kubegres.yaml
   - seafile.yaml
   - linkerd.yaml
+  - linkerd-viz.yaml
