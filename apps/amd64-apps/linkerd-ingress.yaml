@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: linkerd-viz
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: linkerd-viz
+  project: default
+  source:
+    path: linkerd-amd64-production/linkerd-ingress
+    repoURL: https://github.com/milsman2/linkerd2
+    targetRevision: HEAD
+  syncPolicy:
+    automated:
+      selfHeal: true
+      prune: true
