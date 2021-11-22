@@ -7,7 +7,7 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: linkerd
+    namespace: linkerd-viz
   project: default
   source:
     path: linkerd-amd64-production/linkerd-viz
