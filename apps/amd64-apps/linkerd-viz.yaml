@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   namespace: argocd
-  name: linkerd2
+  name: linkerd-viz
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
