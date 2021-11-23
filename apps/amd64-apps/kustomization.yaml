@@ -13,3 +13,4 @@ resources:
   - linkerd.yaml
   - linkerd-viz.yaml
   - linkerd-ingress.yaml
+  - linkerd-jaeger.yaml
