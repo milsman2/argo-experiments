@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: linkerd-jaeger
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: linkerd-jaeger
+  project: default
+  source:
+    path: linkerd-amd64-production/linkerd-jaeger
+    repoURL: https://github.com/milsman2/linkerd2
+    targetRevision: HEAD
+  syncPolicy:
+    automated:
+      selfHeal: true
+      prune: true
