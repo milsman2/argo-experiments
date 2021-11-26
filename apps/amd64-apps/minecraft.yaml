@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: minecraft
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: minecraft
+  project: default
+  source:
+    path: minecraft
+    repoURL: https://github.com/milsman2/amd64-apps
+    targetRevision: HEAD
