@@ -14,5 +14,6 @@ resources:
   - linkerd-viz.yaml
   - linkerd-ingress.yaml
   - linkerd-jaeger.yaml
+  - longhorn-backup.yaml
   - minecraft.yaml
  # - minecraft-ingress.yaml
