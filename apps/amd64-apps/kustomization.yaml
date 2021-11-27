@@ -15,4 +15,4 @@ resources:
   - linkerd-ingress.yaml
   - linkerd-jaeger.yaml
   - minecraft.yaml
-  - mineraft-ingress.yaml
+  - minecraft-ingress.yaml
