@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: longhorn-backup
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: longhorn-system
+  project: default
+  source:
+    path: longhorn-backup
+    repoURL: https://github.com/milsman2/amd64-apps
+    targetRevision: HEAD
