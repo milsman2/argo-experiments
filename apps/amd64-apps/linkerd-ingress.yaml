@@ -13,7 +13,3 @@ spec:
     path: linkerd-amd64-production/linkerd-ingress
     repoURL: https://github.com/milsman2/linkerd2
     targetRevision: HEAD
-  syncPolicy:
-    automated:
-      selfHeal: true
-      prune: true
