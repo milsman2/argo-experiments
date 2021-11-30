@@ -13,7 +13,3 @@ spec:
     path: quake-kube
     repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
-  syncPolicy:
-    automated:
-      selfHeal: true
-      prune: true
