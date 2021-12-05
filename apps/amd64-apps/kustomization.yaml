@@ -11,7 +11,7 @@ resources:
  # - kubegres.yaml
  # - seafile.yaml
   - linkerd.yaml
- # - linkerd-viz.yaml
+  - linkerd-viz.yaml
  # - linkerd-ingress.yaml
  # - linkerd-jaeger.yaml
  # - longhorn-backup.yaml
