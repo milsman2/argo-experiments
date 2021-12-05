@@ -10,7 +10,7 @@ resources:
  # - openfaas.yaml
  # - kubegres.yaml
  # - seafile.yaml
- # - linkerd.yaml
+  - linkerd.yaml
  # - linkerd-viz.yaml
  # - linkerd-ingress.yaml
  # - linkerd-jaeger.yaml
