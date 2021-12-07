@@ -5,15 +5,16 @@ resources:
  # - ghost.yaml
   - cert-manager-issuers.yaml
  # - inlets-pro-client.yaml
-  - nginx.yaml
+ # - nginx.yaml
  # - quake-kube.yaml
  # - openfaas.yaml
  # - kubegres.yaml
  # - seafile.yaml
-  - linkerd.yaml
-  - linkerd-viz.yaml
-  - linkerd-ingress.yaml
-  - linkerd-jaeger.yaml
-  - longhorn-backup.yaml
+ # - linkerd.yaml
+ # - linkerd-viz.yaml
+ # - linkerd-ingress.yaml
+ 
+ # - linkerd-jaeger.yaml
+#  - longhorn-backup.yaml
  # - minecraft.yaml
  # - uptime-kuma.yaml
