@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
- # - ghost.yaml
+  - ghost.yaml
   - cert-manager-issuers.yaml
  # - inlets-pro-client.yaml
   - nginx.yaml
