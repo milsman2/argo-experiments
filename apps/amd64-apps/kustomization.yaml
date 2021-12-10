@@ -15,5 +15,5 @@ resources:
   - linkerd-ingress.yaml
   - linkerd-jaeger.yaml
   - longhorn-backup.yaml
- # - minecraft.yaml
+  - minecraft.yaml
   - uptime-kuma.yaml
