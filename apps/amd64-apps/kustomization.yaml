@@ -9,7 +9,7 @@ resources:
  # - quake-kube.yaml
  # - openfaas.yaml
  # - kubegres.yaml
- # - seafile.yaml
+  - seafile.yaml
   - linkerd.yaml
   - linkerd-viz.yaml
   - linkerd-ingress.yaml
