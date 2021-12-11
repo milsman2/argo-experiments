@@ -16,4 +16,5 @@ resources:
   - linkerd-jaeger.yaml
   - longhorn-backup.yaml
   - minecraft.yaml
+  - quake-kube.yaml
   - uptime-kuma.yaml
