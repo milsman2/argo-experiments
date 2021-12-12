@@ -6,8 +6,8 @@ resources:
   - cert-manager-issuers.yaml
   - inlets-pro-client.yaml
  # - nginx.yaml
-  - openfaas.yaml
-  - seafile.yaml
+  #- openfaas.yaml
+ # - seafile.yaml
   - linkerd.yaml
   - linkerd-viz.yaml
   - linkerd-ingress.yaml
