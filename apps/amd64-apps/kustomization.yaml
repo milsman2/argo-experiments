@@ -6,9 +6,7 @@ resources:
   - cert-manager-issuers.yaml
   - inlets-pro-client.yaml
  # - nginx.yaml
- # - quake-kube.yaml
- # - openfaas.yaml
- # - kubegres.yaml
+  - openfaas.yaml
   - seafile.yaml
   - linkerd.yaml
   - linkerd-viz.yaml
