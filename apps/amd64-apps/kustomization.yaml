@@ -2,18 +2,18 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - ash-blog.yaml
-  - ghost.yaml
+  #- ash-blog.yaml
+  #- ghost.yaml
   - cert-manager-issuers.yaml
-  - inlets-pro-client.yaml
- # - nginx.yaml
-  - openfaas.yaml
+  #- inlets-pro-client.yaml
+  #- nginx.yaml
+  #- openfaas.yaml
   - linkerd.yaml
-  - linkerd-viz.yaml
-  - linkerd-ingress.yaml
-  - linkerd-jaeger.yaml
-  - longhorn-backup.yaml
-  - minecraft.yaml
-  - quake-kube.yaml
-  - uptime-kuma.yaml
-  - vaultwarden.yaml
+  #- linkerd-viz.yaml
+  #- linkerd-ingress.yaml
+  #- linkerd-jaeger.yaml
+  #- longhorn-backup.yaml
+  #- minecraft.yaml
+  #- quake-kube.yaml
+  #- uptime-kuma.yaml
+  #- vaultwarden.yaml
