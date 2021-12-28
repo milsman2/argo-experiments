@@ -15,5 +15,5 @@ resources:
   - longhorn-backup.yaml
   #- minecraft.yaml
   #- quake-kube.yaml
-  #- uptime-kuma.yaml
+  - uptime-kuma.yaml
   #- vaultwarden.yaml
