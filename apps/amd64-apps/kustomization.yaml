@@ -10,10 +10,10 @@ resources:
   #- openfaas.yaml
   - linkerd.yaml
   - linkerd-viz.yaml
-  #- linkerd-ingress.yaml
+  - linkerd-ingress.yaml
   - linkerd-jaeger.yaml
   - longhorn-backup.yaml
-  #- minecraft.yaml
+  - minecraft.yaml
   - quake-kube.yaml
   - uptime-kuma.yaml
   #- vaultwarden.yaml
