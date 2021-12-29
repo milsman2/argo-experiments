@@ -16,4 +16,4 @@ resources:
   - minecraft.yaml
   - quake-kube.yaml
   - uptime-kuma.yaml
-  #- vaultwarden.yaml
+  - vaultwarden.yaml
