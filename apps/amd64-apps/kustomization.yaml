@@ -6,7 +6,7 @@ resources:
   #- ghost.yaml
   - cert-manager-issuers.yaml
   - inlets-pro-client.yaml
-  #- nginx.yaml
+  - nginx.yaml
   #- openfaas.yaml
   - linkerd.yaml
   - linkerd-viz.yaml
