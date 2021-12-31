@@ -1,0 +1,16 @@
+
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: librespeed
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: librespeed
+  project: default
+  source:
+    path: librespeed
+    repoURL: https://github.com/milsman2/amd64-apps
+    targetRevision: HEAD
