@@ -6,6 +6,7 @@ resources:
   - ghost.yaml
   - cert-manager-issuers.yaml
   - inlets-pro-client.yaml
+  - jupyterhub.yaml
   - nginx.yaml
   - openfaas.yaml
   - librespeed.yaml
