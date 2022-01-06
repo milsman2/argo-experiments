@@ -11,5 +11,5 @@ spec:
   project: default
   source:
     path: z2jh
-    repoURL: https://github.com/milsman2/amd64-apps/jupyterhub/
+    repoURL: https://github.com/milsman2/amd64-apps/jupyterhub
     targetRevision: HEAD
