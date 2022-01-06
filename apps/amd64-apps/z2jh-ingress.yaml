@@ -7,9 +7,9 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: jupyterhub
+    namespace: jupyterlab
   project: default
   source:
-    path: jupyterhub/z2jh-ingress
+    path: jupyterlab/z2jh-ingress
     repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
