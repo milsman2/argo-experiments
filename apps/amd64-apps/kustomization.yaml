@@ -3,12 +3,10 @@ kind: Kustomization
 
 resources:
   - ash-blog.yaml
-  - ghost.yaml
   - cert-manager-issuers.yaml
+  - ghost.yaml
   - inlets-pro-client.yaml
   - jupyterlab.yaml
-  - nginx.yaml
-  - openfaas.yaml
   - librespeed.yaml
   - linkerd.yaml
   - linkerd-viz.yaml
@@ -16,6 +14,8 @@ resources:
   - linkerd-jaeger.yaml
   - longhorn-backup.yaml
   - minecraft.yaml
+  - nginx.yaml
+  - openfaas.yaml
   - quake-kube.yaml
   - uptime-kuma.yaml
   - vaultwarden.yaml
