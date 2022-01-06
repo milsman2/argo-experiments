@@ -10,6 +10,6 @@ spec:
     namespace: kubegres-system
   project: default
   source:
-    path: kubegres
+    path: z2jh/kubegres
     repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
