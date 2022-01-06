@@ -6,8 +6,7 @@ resources:
   - ghost.yaml
   - cert-manager-issuers.yaml
   - inlets-pro-client.yaml
-  - jupyterhub.yaml
-  - z2jh-ingress.yaml
+  - jupyterlab.yaml
   - nginx.yaml
   - openfaas.yaml
   - librespeed.yaml
@@ -20,3 +19,4 @@ resources:
   - quake-kube.yaml
   - uptime-kuma.yaml
   - vaultwarden.yaml
+  - z2jh-ingress.yaml
