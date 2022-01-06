@@ -10,6 +10,6 @@ spec:
     namespace: jupyterhub
   project: default
   source:
-    path: jupyterhub
+    path: z2jh/jupyterhub
     repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
