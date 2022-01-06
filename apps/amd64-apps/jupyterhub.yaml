@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   namespace: argocd
-  name: jupyterhub
+  name: jupyterlab
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
@@ -10,7 +10,7 @@ spec:
     namespace: jupyterhub
   project: default
   source:
-    path: jupyterhub/z2jh
+    path: jupyterlab/z2jh
     repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
   syncPolicy:
