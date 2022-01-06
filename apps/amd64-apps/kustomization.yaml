@@ -7,7 +7,7 @@ resources:
   - cert-manager-issuers.yaml
   - inlets-pro-client.yaml
   - jupyterhub.yaml
-  - jupyterhub-ingress.yaml
+  - z2jh-ingress.yaml
   - nginx.yaml
   - openfaas.yaml
   - librespeed.yaml
