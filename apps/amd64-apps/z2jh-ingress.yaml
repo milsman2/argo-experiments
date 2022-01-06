@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   namespace: argocd
-  name: jupyterhub
+  name: z2jh-ingress
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
