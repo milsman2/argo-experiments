@@ -17,7 +17,6 @@ resources:
   - nginx.yaml
   - openfaas.yaml
   - quake-kube.yaml
-  - shlink.yaml
   - uptime-kuma.yaml
   - vaultwarden.yaml
   - vikunja.yaml
