@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: shlink
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: shlink
+  project: default
+  source:
+    path: shlink
+    repoURL: https://github.com/milsman2/amd64-apps
+    targetRevision: HEAD
