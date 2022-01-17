@@ -7,7 +7,7 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: linkerd
+    namespace: argo-events
   project: default
   source:
     path: argo-events
