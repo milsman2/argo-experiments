@@ -3,7 +3,6 @@ kind: Kustomization
 
 resources:
   - ash-blog.yaml
-  - argo-events.yaml
   - cert-manager-issuers.yaml
   - ghost.yaml
   - inlets-pro-client.yaml
