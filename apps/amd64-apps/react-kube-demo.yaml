@@ -10,8 +10,8 @@ spec:
     namespace: react-kube-demo
   project: default
   source:
-    path: react-kube-demo
-    repoURL: https://github.com/milsman2/amd64-apps
+    path: kubernetes-deployment.yaml
+    repoURL: https://github.com/milsman2/react-kube-demo
     targetRevision: HEAD
   syncPolicy:
     automated:
