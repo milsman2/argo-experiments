@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: argocd-ingress
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: argocd
+  project: default
+  source:
+    path: argocd
+    repoURL: https://github.com/milsman2/amd64-apps
+    targetRevision: HEAD
