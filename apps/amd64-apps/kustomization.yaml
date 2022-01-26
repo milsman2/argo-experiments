@@ -23,5 +23,4 @@ resources:
   - tpl-frontend.yaml
   - uptime-kuma.yaml
   - vaultwarden.yaml
-  - vikunja.yaml
   - z2jh-ingress.yaml
