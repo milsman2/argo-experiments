@@ -2,12 +2,12 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   namespace: argocd
-  name: react-kube-demo
+  name: the-precast-toolkit
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: react-kube-demo
+    namespace: the-precast-toolkit
   project: default
   source:
     path: kubernetes-deployment
