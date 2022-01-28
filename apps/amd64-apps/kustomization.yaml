@@ -20,6 +20,7 @@ resources:
   - openfaas.yaml
   - quake-kube.yaml
   - react-kube-demo.yaml
+  - the-precast-toolkit.yaml
   - tpl-frontend.yaml
   - uptime-kuma.yaml
   - vaultwarden.yaml
