@@ -18,6 +18,7 @@ resources:
   - minecraft.yaml
   - nginx.yaml
   - openfaas.yaml
+  - pgadmin4.yaml
   - quake-kube.yaml
   - react-kube-demo.yaml
   - the-precast-toolkit.yaml
