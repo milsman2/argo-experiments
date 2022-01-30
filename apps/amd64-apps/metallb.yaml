@@ -10,7 +10,7 @@ spec:
     namespace: 
   project: default
   source:
-    path: metallb-system
+    path: metallb
     repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
   syncPolicy:
