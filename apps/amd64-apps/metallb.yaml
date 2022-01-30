@@ -7,10 +7,10 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: ingress-nginx
+    namespace: 
   project: default
   source:
-    path: metallb
+    path: metallb-system
     repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
   syncPolicy:
