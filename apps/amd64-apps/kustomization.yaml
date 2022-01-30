@@ -15,6 +15,7 @@ resources:
   - linkerd-ingress.yaml
   - linkerd-jaeger.yaml
   - longhorn-backup.yaml
+  - metallb.yaml
   - minecraft.yaml
   - nginx.yaml
   - openfaas.yaml
