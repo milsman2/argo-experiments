@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   namespace: argocd
-  name: sneaker_db
+  name: sneaker-db
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
@@ -10,7 +10,7 @@ spec:
     namespace: sneakers
   project: default
   source:
-    path: sneaker_db
+    path: sneaker-db
     repoURL: https://github.com/milsman2/sneaker_app
     targetRevision: HEAD
   syncPolicy:
