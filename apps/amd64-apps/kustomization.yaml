@@ -22,6 +22,7 @@ resources:
   - pgadmin4.yaml
   - quake-kube.yaml
   - react-kube-demo.yaml
+  - sneaker_db.yaml
   - the-precast-toolkit.yaml
   - tpl-frontend.yaml
   - uptime-kuma.yaml
