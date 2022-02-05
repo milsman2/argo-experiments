@@ -25,6 +25,7 @@ resources:
   - sneaker-db.yaml
   - sneakers-pgadmin4.yaml
   - the-precast-toolkit.yaml
+  - tpctk-db.yaml
   - tpl-frontend.yaml
   - uptime-kuma.yaml
   - vaultwarden.yaml
