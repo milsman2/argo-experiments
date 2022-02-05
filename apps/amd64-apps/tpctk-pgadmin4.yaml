@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: tpctk-pgadmin4
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: the-precast-toolkit
+  project: default
+  source:
+    path: tpctk-pgadmin4
+    repoURL: https://github.com/milsman2/the-precast-toolkit
+    targetRevision: HEAD
+  syncPolicy:
+    automated:
+      selfHeal: true
+      prune: true
