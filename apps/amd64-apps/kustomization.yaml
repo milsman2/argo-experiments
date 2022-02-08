@@ -8,6 +8,7 @@ resources:
   - ghost.yaml
   - inlets-pro-client.yaml
   - jupyterlab.yaml
+  - kanebulnes.yaml
   - kubegres.yaml
   - librespeed.yaml
   - linkerd.yaml
