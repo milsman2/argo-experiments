@@ -25,7 +25,7 @@ resources:
   - sneaker-db.yaml
   - sneakers-pgadmin4.yaml
   - the-precast-toolkit.yaml
-  - tpctk-db.yaml
+  - tpctk-kubegres.yaml
   - tpctk-pgadmin4.yaml
   - tpl-pgadmin4.yaml
   - tpl-frontend.yaml
