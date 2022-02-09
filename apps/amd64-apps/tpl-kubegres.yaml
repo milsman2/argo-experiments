@@ -7,7 +7,7 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: alpaca
+    namespace: the-punters-league
   project: default
   source:
     path: kubegres
