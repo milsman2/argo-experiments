@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   namespace: argocd
-  name: tpctk-db
+  name: tpctk-kubegres
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
@@ -10,7 +10,7 @@ spec:
     namespace: the-precast-toolkit
   project: default
   source:
-    path: tpctk-db
+    path: kubegres
     repoURL: https://github.com/milsman2/the-precast-toolkit
     targetRevision: HEAD
   syncPolicy:
