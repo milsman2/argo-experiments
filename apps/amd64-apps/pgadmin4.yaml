@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   namespace: argocd
-  name: pgadmin4
+  name: tpl-pgadmin4
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
@@ -11,7 +11,7 @@ spec:
   project: default
   source:
     path: pgadmin4
-    repoURL: https://github.com/milsman2/amd64-apps
+    repoURL: https://github.com/milsman2/the_punters_league
     targetRevision: HEAD
   syncPolicy:
     automated:
