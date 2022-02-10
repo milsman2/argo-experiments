@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: alpaca-code-server
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: librespeed
+  project: default
+  source:
+    path: code-server
+    repoURL: https://github.com/milsman2/kanebulnes
+    targetRevision: HEAD
