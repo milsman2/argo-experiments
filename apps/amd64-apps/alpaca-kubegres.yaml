@@ -10,6 +10,6 @@ spec:
     namespace: alpaca
   project: default
   source:
-    path: alpaca-kubegres
+    path: kubegres
     repoURL: https://github.com/milsman2/kanebulnes
     targetRevision: HEAD
