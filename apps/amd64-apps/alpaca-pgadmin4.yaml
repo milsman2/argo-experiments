@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: alpaca-pgadmin4
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: alpaca
+  project: default
+  source:
+    path: pgadmin4
+    repoURL: https://github.com/milsman2/kanebulnes
+    targetRevision: HEAD
