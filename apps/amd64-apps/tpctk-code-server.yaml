@@ -11,5 +11,5 @@ spec:
   project: default
   source:
     path: code-server
-    repoURL: https://github.com/milsman2/kanebulnes
+    repoURL: https://github.com/milsman2/the-precast-toolkit
     targetRevision: HEAD
