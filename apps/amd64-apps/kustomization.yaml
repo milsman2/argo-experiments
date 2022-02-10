@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
   - alpaca-code-server.yaml
   - alpaca-kubegres.yaml
+  - alpaca-pgadmin4.yaml
   - argocd-ingress.yaml
   - alpaca.yaml
   - ash-blog.yaml
