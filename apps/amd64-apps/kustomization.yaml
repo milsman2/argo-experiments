@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
   - alpaca-code-server.yaml
+  - alpaca-kubegres.yaml
   - argocd-ingress.yaml
   - alpaca.yaml
   - ash-blog.yaml
