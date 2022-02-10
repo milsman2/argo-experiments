@@ -6,6 +6,7 @@ resources:
   - argocd-ingress.yaml
   - alpaca.yaml
   - ash-blog.yaml
+  - carlos-code-server.yaml
   - cert-manager-issuers.yaml
   - ghost.yaml
   - inlets-pro-client.yaml
