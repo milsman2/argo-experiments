@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: tpctk-code-server
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: the-precast-toolkit
+  project: default
+  source:
+    path: code-server
+    repoURL: https://github.com/milsman2/kanebulnes
+    targetRevision: HEAD
