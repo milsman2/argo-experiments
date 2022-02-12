@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: miles-code-server
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: the-punters-league
+  project: default
+  source:
+    path: miles-code-server
+    repoURL: https://github.com/milsman2/the_punters_league
+    targetRevision: HEAD
