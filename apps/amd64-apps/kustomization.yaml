@@ -10,6 +10,7 @@ resources:
   - ash-blog.yaml
   - carlos-code-server.yaml
   - cert-manager-issuers.yaml
+  - david-code-server.yaml
   - ghost.yaml
   - inlets-pro-client.yaml
   - jupyterlab.yaml
