@@ -22,6 +22,7 @@ resources:
   - linkerd-jaeger.yaml
   - longhorn-backup.yaml
   - metallb.yaml
+  - miles-code-server.yaml
   - minecraft.yaml
   - nginx.yaml
   - openfaas.yaml
