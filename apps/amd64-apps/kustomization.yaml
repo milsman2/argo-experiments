@@ -30,8 +30,7 @@ resources:
   - openfaas.yaml
   - quake-kube.yaml
   - react-kube-demo.yaml
-  - sneaker-db.yaml
-  - sneakers-pgadmin4.yaml
+  - sealed-secrets.yaml
   - the-precast-toolkit.yaml
   - tpctk-code-server.yaml
   - tpctk-kubegres.yaml
