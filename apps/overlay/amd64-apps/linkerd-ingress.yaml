@@ -10,6 +10,6 @@ spec:
     namespace: linkerd-viz
   project: default
   source:
-    path: linkerd-amd64-production/linkerd-ingress
-    repoURL: https://github.com/milsman2/linkerd2
+    path: linkerd2/linkerd-ingress
+    repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
