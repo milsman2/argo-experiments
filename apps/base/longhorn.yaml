@@ -10,7 +10,8 @@ spec:
     namespace: longhorn-system
   project: default
   source:
-    repoURL: https://github.com/milsman2/longhorn
+    path: longhorn
+    repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
   syncPolicy:
     automated:
