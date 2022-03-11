@@ -10,7 +10,8 @@ spec:
   destination:
     namespace: ingress-nginx
   source:
-    repoURL: https://github.com/milsman2/ingress-nginx
+    path: ingress-nginx
+    repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
   syncPolicy:
     automated:
