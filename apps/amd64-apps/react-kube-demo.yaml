@@ -27,7 +27,7 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: react-kube-demo-staging
+    namespace: react-kube-demo-production
   project: default
   source:
     path: kustomize/overlays/production
