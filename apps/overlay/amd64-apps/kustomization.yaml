@@ -41,3 +41,20 @@ resources:
   - uptime-kuma.yaml
   - vaultwarden.yaml
   - z2jh-ingress.yaml
+
+patches:
+  - path: patch.yaml
+    target:
+      kind: Application
+  - path: cert-manager-patch.yaml
+    target:
+      kind: Application
+      name: cert-manager
+  - path: longhorn-patch.yaml
+    target:
+      kind: Application
+      name: longhorn
+  - path: ingress-nginx-patch.yaml
+    target:
+      kind: Application
+      name: ingress-nginx
