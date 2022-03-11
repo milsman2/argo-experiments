@@ -7,10 +7,30 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: react-kube-demo
+    namespace: react-kube-demo-staging
   project: default
   source:
-    path: kubernetes-deployment
+    path: kustomize/overlays/staging
+    repoURL: https://github.com/milsman2/react-kube-demo
+    targetRevision: HEAD
+  syncPolicy:
+    automated:
+      selfHeal: true
+      prune: true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: react-kube-demo-production
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: react-kube-demo-staging
+  project: default
+  source:
+    path: kustomize/overlays/production
     repoURL: https://github.com/milsman2/react-kube-demo
     targetRevision: HEAD
   syncPolicy:
