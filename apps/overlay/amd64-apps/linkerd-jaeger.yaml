@@ -10,8 +10,8 @@ spec:
     namespace: linkerd-jaeger
   project: default
   source:
-    path: linkerd-amd64-production/linkerd-jaeger
-    repoURL: https://github.com/milsman2/linkerd2
+    path: linkerd2/linkerd-jaeger
+    repoURL: https://github.com/milsman2/amd64-apps
     targetRevision: HEAD
   syncPolicy:
     automated:
