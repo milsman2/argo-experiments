@@ -13,7 +13,9 @@ spec:
     path: kubernetes
     repoURL: https://github.com/milsman2/kanebulnes
     targetRevision: HEAD
- # syncPolicy:
- #   automated:
-  #    selfHeal: true
-   #   prune: true
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNameSpace=true
