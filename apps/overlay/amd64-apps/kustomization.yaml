@@ -3,45 +3,47 @@ kind: Kustomization
 
 resources:
   - ../../base
-  - alpaca-code-server.yaml
-  - alpaca-kubegres.yaml
-  - alpaca-pgadmin4.yaml
-  - argocd-ingress.yaml
+ # - alpaca-code-server.yaml
+ # - alpaca-kubegres.yaml
+ # - alpaca-pgadmin4.yaml
+ # - argocd-ingress.yaml
  # - argo-events.yaml
-  - alpaca.yaml
-  - ash-blog.yaml
-  - carlos-code-server.yaml
-  - cert-manager-issuers.yaml
-  - david-code-server.yaml
-  - ghost.yaml
-  - inlets-pro-client.yaml
-  - jupyterlab.yaml
-  - kanecraft.yaml
-  - kubegres.yaml
-  - librespeed.yaml
-  - linkerd.yaml
-  - linkerd-viz.yaml
-  - linkerd-ingress.yaml
-  - linkerd-jaeger.yaml
-  - longhorn-backup.yaml
+ # - alpaca.yaml
+ # - ash-blog.yaml
+ # - carlos-code-server.yaml
+ # - cert-manager-issuers.yaml
+ # - david-code-server.yaml
+ # - ghost.yaml
+ # - ingress-nginx.yaml
+ # - inlets-pro-client.yaml
+ # - jupyterlab.yaml
+ # - kanecraft.yaml
+ # - kubegres.yaml
+ # - librespeed.yaml
+ # - linkerd.yaml
+ # - linkerd-viz.yaml
+ # - linkerd-ingress.yaml
+ # - linkerd-jaeger.yaml
+ # - longhorn.yaml
+ # - longhorn-backup.yaml
   - metallb.yaml
-  - miles-code-server.yaml
-  - minecraft.yaml
-  - nginx.yaml
-  - openfaas.yaml
-  - quake-kube.yaml
-  - react-kube-demo.yaml
+ # - miles-code-server.yaml
+ # - minecraft.yaml
+ # - nginx.yaml
+ # - openfaas.yaml
+ # - quake-kube.yaml
+ # - react-kube-demo.yaml
  # - sealed-secrets.yaml
-  - the-precast-toolkit.yaml
-  - tpctk-code-server.yaml
-  - tpctk-kubegres.yaml
-  - tpctk-pgadmin4.yaml
-  - tpl-pgadmin4.yaml
-  - tpl-frontend.yaml
-  - tpl-kubegres.yaml
-  - uptime-kuma.yaml
-  - vaultwarden.yaml
-  - z2jh-ingress.yaml
+ # - the-precast-toolkit.yaml
+ # - tpctk-code-server.yaml
+ # - tpctk-kubegres.yaml
+ # - tpctk-pgadmin4.yaml
+ # - tpl-pgadmin4.yaml
+ # - tpl-frontend.yaml
+ # - tpl-kubegres.yaml
+ # - uptime-kuma.yaml
+ # - vaultwarden.yaml
+ # - z2jh-ingress.yaml
 
 patches:
   - path: patch.yaml
