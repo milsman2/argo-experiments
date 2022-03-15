@@ -13,7 +13,7 @@ spec:
     path: pgadmin4
     repoURL: https://github.com/milsman2/the_punters_league
     targetRevision: HEAD
-  syncPolicy:
-    automated:
-      selfHeal: true
-      prune: true
+ # syncPolicy:
+  #  automated:
+   #   selfHeal: true
+    #  prune: true
