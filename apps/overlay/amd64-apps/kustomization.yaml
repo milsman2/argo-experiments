@@ -2,23 +2,23 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
- # - alpaca-code-server.yaml
- # - alpaca-kubegres.yaml
- # - alpaca-pgadmin4.yaml
- # - argocd-ingress.yaml
- # - argo-events.yaml
- # - alpaca.yaml
- # - ash-blog.yaml
- # - carlos-code-server.yaml
+  - alpaca-code-server.yaml
+  - alpaca-kubegres.yaml
+  - alpaca-pgadmin4.yaml
+  - argocd-ingress.yaml
+  - argo-events.yaml
+  - alpaca.yaml
+  - ash-blog.yaml
+  - carlos-code-server.yaml
   - cert-manager-issuers.yaml
   - david-code-server.yaml
- # - ghost.yaml
+  - ghost.yaml
   - ingress-nginx.yaml
   - inlets-pro-client.yaml
- # - jupyterlab.yaml
- # - kanecraft.yaml
- # - kubegres.yaml
- # - librespeed.yaml
+  - jupyterlab.yaml
+  - kanecraft.yaml
+  - kubegres.yaml
+  - librespeed.yaml
   - linkerd.yaml
   - linkerd-viz.yaml
   - linkerd-ingress.yaml
@@ -26,12 +26,12 @@ resources:
   - longhorn.yaml
   - longhorn-backup.yaml
   - metallb.yaml
- # - miles-code-server.yaml
- # - minecraft.yaml
- # - nginx.yaml
- # - openfaas.yaml
- # - quake-kube.yaml
- # - react-kube-demo.yaml
+  - miles-code-server.yaml
+  - minecraft.yaml
+  - nginx.yaml
+  - openfaas.yaml
+  - quake-kube.yaml
+  - react-kube-demo.yaml
  # - sealed-secrets.yaml
  # - the-precast-toolkit.yaml
  # - tpctk-code-server.yaml
