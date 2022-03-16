@@ -40,9 +40,9 @@ resources:
  # - tpl-pgadmin4.yaml
  # - tpl-frontend.yaml
  # - tpl-kubegres.yaml
- # - uptime-kuma.yaml
+  - uptime-kuma.yaml
  # - vaultwarden.yaml
- # - z2jh-ingress.yaml
+  - z2jh-ingress.yaml
 
 patches:
   - path: patch.yaml
