@@ -33,13 +33,13 @@ resources:
   - quake-kube.yaml
   - react-kube-demo.yaml
  # - sealed-secrets.yaml
- # - the-precast-toolkit.yaml
- # - tpctk-code-server.yaml
- # - tpctk-kubegres.yaml
- # - tpctk-pgadmin4.yaml
- # - tpl-pgadmin4.yaml
- # - tpl-frontend.yaml
- # - tpl-kubegres.yaml
+  - the-precast-toolkit.yaml
+  - tpctk-code-server.yaml
+  - tpctk-kubegres.yaml
+  - tpctk-pgadmin4.yaml
+  - tpl-pgadmin4.yaml
+  - tpl-frontend.yaml
+  - tpl-kubegres.yaml
   - uptime-kuma.yaml
  # - vaultwarden.yaml
   - z2jh-ingress.yaml
