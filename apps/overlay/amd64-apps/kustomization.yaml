@@ -6,7 +6,6 @@ resources:
   - alpaca-kubegres.yaml
   - alpaca-pgadmin4.yaml
   - argocd-ingress.yaml
-  - argo-events.yaml
   - alpaca.yaml
   - ash-blog.yaml
   - carlos-code-server.yaml
