@@ -12,17 +12,17 @@ resources:
   - cert-manager.yaml
   - cert-manager-issuers.yaml
   - david-code-server.yaml
-  - ghost.yaml
+#  - ghost.yaml
   - ingress-nginx.yaml
   - inlets-pro-client.yaml
   - jupyterlab.yaml
   - kanecraft.yaml
   - kubegres.yaml
   - librespeed.yaml
-  - linkerd.yaml
-  - linkerd-viz.yaml
-  - linkerd-ingress.yaml
-  - linkerd-jaeger.yaml
+ # - linkerd.yaml
+ # - linkerd-viz.yaml
+ # - linkerd-ingress.yaml
+ # - linkerd-jaeger.yaml
   - longhorn.yaml
   - longhorn-backup.yaml
   - metallb.yaml
