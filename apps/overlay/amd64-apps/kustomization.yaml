@@ -12,7 +12,7 @@ resources:
   - cert-manager.yaml
   - cert-manager-issuers.yaml
   - david-code-server.yaml
-#  - ghost.yaml
+  - ghost.yaml
   - ingress-nginx.yaml
   - inlets-pro-client.yaml
   - jupyterlab.yaml
