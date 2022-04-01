@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: tpctk-rabbitmq
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: the-precast-toolkit
+  project: default
+  source:
+    path: backend/backend-full-kubernetes
+    repoURL: https://github.com/milsman2/the-precast-toolkit
+    targetRevision: HEAD
