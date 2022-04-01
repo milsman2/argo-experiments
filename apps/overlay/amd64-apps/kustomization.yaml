@@ -37,6 +37,7 @@ resources:
   - tpctk-code-server.yaml
   - tpctk-kubegres.yaml
   - tpctk-pgadmin4.yaml
+  - tpctk-rabbitmql.yaml
   - tpl-pgadmin4.yaml
   - tpl-frontend.yaml
   - tpl-kubegres.yaml
