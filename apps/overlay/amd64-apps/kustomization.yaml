@@ -41,6 +41,7 @@ resources:
   - tpl-pgadmin4.yaml
   - tpl-frontend.yaml
   - tpl-kubegres.yaml
+  - tpl-rabbitmq.yaml
   - uptime-kuma.yaml
  # - vaultwarden.yaml
   - z2jh-ingress.yaml
