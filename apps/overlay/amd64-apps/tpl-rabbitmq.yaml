@@ -11,5 +11,5 @@ spec:
   project: default
   source:
     path: tpl-fastapi/tpl-rabbitmq
-    repoURL: https://github.com/milsman2/the-punters-league
+    repoURL: https://github.com/milsman2/the_punters_league
     targetRevision: HEAD
