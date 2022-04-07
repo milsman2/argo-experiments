@@ -10,6 +10,6 @@ spec:
     namespace: the-precast-toolkit
   project: default
   source:
-    path: backend/tpctk-rabbitmq
+    path: tpctk-rabbitmq
     repoURL: https://github.com/milsman2/the-precast-toolkit
     targetRevision: HEAD
