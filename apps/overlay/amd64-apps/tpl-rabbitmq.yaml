@@ -10,6 +10,6 @@ spec:
     namespace: the-punters-league
   project: default
   source:
-    path: tpl-fastapi/tpl-rabbitmq
+    path: tpl-rabbitmq
     repoURL: https://github.com/milsman2/the_punters_league
     targetRevision: HEAD
