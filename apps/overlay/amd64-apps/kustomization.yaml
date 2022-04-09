@@ -12,6 +12,7 @@ resources:
   - cert-manager.yaml
   - cert-manager-issuers.yaml
   - david-code-server.yaml
+  - full-stack-inventory.yaml
   - ghost.yaml
   - ingress-nginx.yaml
   - inlets-pro-client.yaml
