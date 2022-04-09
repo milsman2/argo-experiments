@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: full-stack-inventory
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: full-stack-inventory
+  project: default
+  source:
+    path: fsi-postgresql
+    repoURL: https://github.com/milsman2/full-stack-inventory
+    targetRevision: HEAD
