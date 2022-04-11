@@ -16,7 +16,7 @@ resources:
 #  - fsi-pgadmin4.yaml
 #  - ghost.yaml
    - ingress-nginx.yaml
-#  - inlets-pro-client.yaml
+   - inlets-pro-client.yaml
 #  - jupyterlab.yaml
 #  - kanecraft.yaml
 #  - kubegres.yaml
