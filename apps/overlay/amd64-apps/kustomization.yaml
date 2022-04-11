@@ -9,8 +9,8 @@ resources:
  # - alpaca.yaml
  # - ash-blog.yaml
  # - carlos-code-server.yaml
- # - cert-manager.yaml
- # - cert-manager-issuers.yaml
+   - cert-manager.yaml
+   - cert-manager-issuers.yaml
 #  - david-code-server.yaml
 #  - fsi-postgresql.yaml
 #  - fsi-pgadmin4.yaml
