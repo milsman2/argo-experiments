@@ -8,7 +8,7 @@ resources:
    - argocd-ingress.yaml
    - alpaca.yaml
  # - ash-blog.yaml
- # - carlos-code-server.yaml
+   - carlos-code-server.yaml
    - cert-manager.yaml
    - cert-manager-issuers.yaml
 #  - david-code-server.yaml
@@ -19,7 +19,7 @@ resources:
    - inlets-pro-client.yaml
    - jupyterlab.yaml
 #  - kanecraft.yaml
-#  - kubegres.yaml
+   - kubegres.yaml
    - librespeed.yaml
  # - linkerd.yaml
  # - linkerd-viz.yaml
