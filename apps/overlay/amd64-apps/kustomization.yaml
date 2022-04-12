@@ -12,8 +12,8 @@ resources:
    - cert-manager.yaml
    - cert-manager-issuers.yaml
    - david-code-server.yaml
-#  - fsi-postgresql.yaml
-#  - fsi-pgadmin4.yaml
+   - fsi-postgresql.yaml
+   - fsi-pgadmin4.yaml
    - ghost.yaml
    - ingress-nginx.yaml
    - inlets-pro-client.yaml
