@@ -17,7 +17,7 @@ resources:
 #  - ghost.yaml
    - ingress-nginx.yaml
    - inlets-pro-client.yaml
-#  - jupyterlab.yaml
+   - jupyterlab.yaml
 #  - kanecraft.yaml
 #  - kubegres.yaml
    - librespeed.yaml
