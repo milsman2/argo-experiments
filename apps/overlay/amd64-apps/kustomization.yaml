@@ -31,14 +31,14 @@ resources:
 #  - miles-code-server.yaml
 #  - minecraft.yaml
    - nginx.yaml
-#  - openfaas.yaml
+   - openfaas.yaml
    - quake-kube.yaml
-#  - react-kube-demo.yaml
+   - react-kube-demo.yaml
  # - sealed-secrets.yaml
- # - the-precast-toolkit.yaml
- # - tpctk-code-server.yaml
- # - tpctk-kubegres.yaml
- # - tpctk-pgadmin4.yaml
+   - the-precast-toolkit.yaml
+   - tpctk-code-server.yaml
+   - tpctk-kubegres.yaml
+   - tpctk-pgadmin4.yaml
  # - tpctk-rabbitmq.yaml
  # - tpl-pgadmin4.yaml
  # - tpl-frontend.yaml
