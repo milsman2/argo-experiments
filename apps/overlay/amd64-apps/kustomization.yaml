@@ -20,7 +20,7 @@ resources:
 #  - jupyterlab.yaml
 #  - kanecraft.yaml
 #  - kubegres.yaml
-#  - librespeed.yaml
+   - librespeed.yaml
  # - linkerd.yaml
  # - linkerd-viz.yaml
  # - linkerd-ingress.yaml
