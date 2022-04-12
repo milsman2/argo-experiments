@@ -30,9 +30,9 @@ resources:
    - metallb.yaml
 #  - miles-code-server.yaml
 #  - minecraft.yaml
-#  - nginx.yaml
+   - nginx.yaml
 #  - openfaas.yaml
-#  - quake-kube.yaml
+   - quake-kube.yaml
 #  - react-kube-demo.yaml
  # - sealed-secrets.yaml
  # - the-precast-toolkit.yaml
