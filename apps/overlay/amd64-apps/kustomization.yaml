@@ -11,7 +11,7 @@ resources:
    - carlos-code-server.yaml
    - cert-manager.yaml
    - cert-manager-issuers.yaml
-#  - david-code-server.yaml
+   - david-code-server.yaml
 #  - fsi-postgresql.yaml
 #  - fsi-pgadmin4.yaml
 #  - ghost.yaml
@@ -28,7 +28,7 @@ resources:
    - longhorn.yaml
    - longhorn-backup.yaml
    - metallb.yaml
-#  - miles-code-server.yaml
+   - miles-code-server.yaml
 #  - minecraft.yaml
    - nginx.yaml
    - openfaas.yaml
@@ -39,10 +39,10 @@ resources:
    - tpctk-code-server.yaml
    - tpctk-kubegres.yaml
    - tpctk-pgadmin4.yaml
- # - tpctk-rabbitmq.yaml
- # - tpl-pgadmin4.yaml
- # - tpl-frontend.yaml
- # - tpl-kubegres.yaml
+   - tpctk-rabbitmq.yaml
+   - tpl-pgadmin4.yaml
+   - tpl-frontend.yaml
+   - tpl-kubegres.yaml
    - tpl-rabbitmq.yaml
    - uptime-kuma.yaml
    - vaultwarden.yaml
