@@ -41,7 +41,6 @@ resources:
    - tpl-kubegres.yaml
    - uptime-kuma.yaml
    - vaultwarden.yaml
-#  - z2jh-ingress.yaml
 
 patches:
   - path: patch.yaml
