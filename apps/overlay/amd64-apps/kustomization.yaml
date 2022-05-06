@@ -12,7 +12,6 @@ resources:
    - cert-manager-issuers.yaml
    - fsi-postgresql.yaml
    - fsi-pgadmin4.yaml
-   - gcap-wiki.yaml
    - ghost.yaml
    - ingress-nginx.yaml
    - inlets-pro-client.yaml
