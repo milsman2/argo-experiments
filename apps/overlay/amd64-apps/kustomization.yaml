@@ -34,7 +34,6 @@ resources:
  # - sealed-secrets.yaml
    - the-precast-toolkit.yaml
    - tpctk-code-server.yaml
-   - tpctk-kubegres.yaml
    - tpctk-pgadmin4.yaml
    - tpctk-fs-pgadmin4.yaml
    - tpctk-fs-kubegres.yaml
