@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: tpctk-fs-postgresql
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: the-precast-toolkit-fs
+  project: default
+  source:
+    path: tpctk-fs-postgresql
+    repoURL: https://github.com/milsman2/tpctk
+    targetRevision: HEAD
