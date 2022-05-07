@@ -37,7 +37,7 @@ resources:
    - tpctk-kubegres.yaml
    - tpctk-pgadmin4.yaml
    - tpctk-fs-pgadmin4.yaml
-   - tpctk-fs-postgresql.yaml
+   - tpctk-fs-kubegres.yaml
    - tpl-pgadmin4.yaml
    - tpl-frontend.yaml
    - tpl-kubegres.yaml
