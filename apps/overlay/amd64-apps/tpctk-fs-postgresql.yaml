@@ -11,5 +11,5 @@ spec:
   project: default
   source:
     path: tpctk-fs-postgresql
-    repoURL: https://github.com/milsman2/tpctk
+    repoURL: https://github.com/milsman2/the-precast-toolkit-fs
     targetRevision: HEAD
