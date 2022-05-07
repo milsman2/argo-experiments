@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: tpctk-fs-pgadmin4
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: the-precast-toolkit-fs
+  project: default
+  source:
+    path: tpctk-fs-pgadmin4
+    repoURL: https://github.com/milsman2/the-precast-toolkit-fs
+    targetRevision: HEAD
