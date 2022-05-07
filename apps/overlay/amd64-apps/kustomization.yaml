@@ -35,7 +35,6 @@ resources:
    - the-precast-toolkit.yaml
    - tpctk-code-server.yaml
    - tpctk-kubegres.yaml
-   - tptctk-fs-postgresql.yaml
    - tpctk-pgadmin4.yaml
    - tpl-pgadmin4.yaml
    - tpl-frontend.yaml
