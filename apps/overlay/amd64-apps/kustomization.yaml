@@ -39,6 +39,7 @@ resources:
    - tpctk-fs-kube-frontend.yaml
    - tpctk-fs-kubegres.yaml
    - tpctk-fs-mysql.yaml
+   - tpctck-fs-umami.yaml
    - tpl-pgadmin4.yaml
    - tpl-frontend.yaml
    - tpl-kubegres.yaml
