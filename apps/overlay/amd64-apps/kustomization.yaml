@@ -42,7 +42,6 @@ resources:
    - tpl-frontend.yaml
    - tpl-kubegres.yaml
    - uptime-kuma.yaml
-   - vaultwarden.yaml
 
 patches:
   - path: patch.yaml
