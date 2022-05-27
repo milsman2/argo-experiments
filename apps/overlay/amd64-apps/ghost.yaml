@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   namespace: argocd
-  name: ghost-amd64
+  name: ghost
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
