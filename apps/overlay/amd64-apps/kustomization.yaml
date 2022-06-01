@@ -33,6 +33,7 @@ resources:
  # - sealed-secrets.yaml
    - the-precast-toolkit.yaml
    - tpctk-code-server.yaml
+   - tpctk-fs-code.yaml
    - tpctk-fs-pgadmin4.yaml
    - tpctk-fs-kube-backend.yaml
    - tpctk-fs-kube-frontend.yaml
