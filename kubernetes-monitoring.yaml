@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: kubernetes-monitoring
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: kubernetes-monitoring
+  project: default
+  source:
+    path: /
+    repoURL: https://github.com/milsman2/kubernetes-monitoring
+    targetRevision: HEAD
