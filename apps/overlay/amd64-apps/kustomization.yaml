@@ -30,6 +30,7 @@ resources:
    - openfaas.yaml
    - quake-kube.yaml
    - react-kube-demo.yaml
+   - run-pop-kubegres.yaml
  # - sealed-secrets.yaml
    - the-precast-toolkit.yaml
    - tpctk-fs-code.yaml
