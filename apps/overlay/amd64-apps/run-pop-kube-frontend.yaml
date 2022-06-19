@@ -10,6 +10,6 @@ spec:
     namespace: the-precast-toolkit-fs
   project: default
   source:
-    path: run-pop-kube-frontend
+    path: run_pop_kube_frontend
     repoURL: https://github.com/milsman2/run_pop
     targetRevision: HEAD
