@@ -31,6 +31,7 @@ resources:
    - quake-kube.yaml
    - react-kube-demo.yaml
    - run-pop-kubegres.yaml
+   - run-pop-pgadmin4.yaml
  # - sealed-secrets.yaml
    - the-precast-toolkit.yaml
    - tpctk-fs-code.yaml
