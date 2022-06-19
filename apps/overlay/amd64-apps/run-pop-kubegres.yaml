@@ -10,6 +10,6 @@ spec:
     namespace: run-pop
   project: default
   source:
-    path: run-pop-kubegres
+    path: run_pop_kubegres
     repoURL: https://github.com/milsman2/run_pop
     targetRevision: HEAD
