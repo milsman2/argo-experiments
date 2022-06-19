@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: run-kube-frontend
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: the-precast-toolkit-fs
+  project: default
+  source:
+    path: run-pop-kube-frontend
+    repoURL: https://github.com/milsman2/run_pop
+    targetRevision: HEAD
