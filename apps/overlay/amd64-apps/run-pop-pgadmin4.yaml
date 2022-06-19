@@ -10,6 +10,6 @@ spec:
     namespace: run-pop
   project: default
   source:
-    path: run-pop-pgadmin4
+    path: run_pop_pgadmin4
     repoURL: https://github.com/milsman2/run_pop
     targetRevision: HEAD
