@@ -11,5 +11,5 @@ spec:
   project: default
   source:
     path: run-pop-pgadmin4
-    repoURL: https://github.com/milsman2/run-pop
+    repoURL: https://github.com/milsman2/run_pop
     targetRevision: HEAD
