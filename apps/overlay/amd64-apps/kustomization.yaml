@@ -26,7 +26,9 @@ resources:
    - metallb.yaml
    - miles-code-server.yaml
 #  - minecraft.yaml
+# mqtt-timescale project
    - mosquitto.yaml
+   - timescaledb.yaml
    - nginx.yaml
    - openfaas.yaml
    - quake-kube.yaml
