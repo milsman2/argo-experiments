@@ -26,6 +26,7 @@ resources:
    - metallb.yaml
    - miles-code-server.yaml
 #  - minecraft.yaml
+   - Mosquitto.yaml
    - nginx.yaml
    - openfaas.yaml
    - quake-kube.yaml
