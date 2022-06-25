@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: Mosquitto
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: MQTT-dashboard
+  project: default
+  source:
+    path: Mosquitto
+    repoURL: https://github.com/milsman2/MQTT-dashboard
+    targetRevision: HEAD
