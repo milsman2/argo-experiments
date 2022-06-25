@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: argocd
+  name: timescaledb
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: mqtt-dashboard
+  project: default
+  source:
+    path: timescaledb
+    repoURL: https://github.com/milsman2/mqtt-dashboard
+    targetRevision: HEAD
