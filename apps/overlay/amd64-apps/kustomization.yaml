@@ -17,16 +17,11 @@ resources:
 #  - kanecraft.yaml
    - kubegres.yaml
    - librespeed.yaml
- # - linkerd.yaml
- # - linkerd-viz.yaml
- # - linkerd-ingress.yaml
- # - linkerd-jaeger.yaml
    - longhorn.yaml
    - longhorn-backup.yaml
    - metallb.yaml
    - miles-code-server.yaml
 #  - minecraft.yaml
-# mqtt-timescale project
    - mosquitto.yaml
    - timescaledb.yaml
    - nginx.yaml
@@ -46,7 +41,7 @@ resources:
    - tpctk-fs-mysql.yaml
    - tpctk-fs-umami.yaml
    - tpl-pgadmin4.yaml
-   - tpl-frontend.yaml
+   - tpl-kubernetes.yaml
    - uptime-kuma.yaml
 
 patches:
