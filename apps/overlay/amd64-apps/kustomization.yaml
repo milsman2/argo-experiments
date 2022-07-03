@@ -20,7 +20,6 @@ resources:
    - longhorn.yaml
    - longhorn-backup.yaml
    - metallb.yaml
-   - miles-code-server.yaml
 #  - minecraft.yaml
    - mosquitto.yaml
    - timescaledb.yaml
