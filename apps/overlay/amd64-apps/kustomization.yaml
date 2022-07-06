@@ -22,7 +22,6 @@ resources:
    - metallb.yaml
 #  - minecraft.yaml
    - mosquitto.yaml
-   - promscale.yaml
    - timescaledb.yaml
    - nginx.yaml
    - openfaas.yaml
@@ -33,6 +32,7 @@ resources:
    - run-pop-pgadmin4.yaml
  # - sealed-secrets.yaml
    - the-precast-toolkit.yaml
+   - tobs.yaml
    - tpctk-fs-code.yaml
    - tpctk-fs-pgadmin4.yaml
    - tpctk-fs-kube-backend.yaml
