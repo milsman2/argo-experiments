@@ -22,6 +22,7 @@ resources:
    - timescaledb.yaml
    - nginx.yaml
    - openfaas.yaml
+   - prometheus.yaml
    - quake-kube.yaml
    - react-kube-demo.yaml
    - run-pop-kube-frontend.yaml
