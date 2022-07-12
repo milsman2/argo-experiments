@@ -9,6 +9,7 @@ resources:
    - fsi-postgresql.yaml
    - fsi-pgadmin4.yaml
    - ghost.yaml
+   - grafana.yaml
    - ingress-nginx.yaml
    - inlets-pro-client.yaml
 #  - kanecraft.yaml
