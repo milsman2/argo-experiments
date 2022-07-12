@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   namespace: argocd
-  name: eth_kube_exporter
+  name: eth-exporter
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
@@ -10,6 +10,6 @@ spec:
     namespace: alpaca
   project: default
   source:
-    path: eth_exporter_kube
+    path: eth-exporter
     repoURL: https://github.com/milsman2/eth_tracker
     targetRevision: HEAD
