@@ -39,7 +39,7 @@ resources:
    - tpctk-fs-umami.yaml
    - tpl-kubernetes.yaml
    - tpl-pgadmin4.yaml
-   - tpl-timescaledb.yaml
+   - tpl-kubegres.yaml
    - uptime-kuma.yaml
 
 patches:
