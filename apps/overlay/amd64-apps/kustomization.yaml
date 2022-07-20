@@ -17,8 +17,6 @@ resources:
    - longhorn-backup.yaml
    - metallb.yaml
 #  - minecraft.yaml
-   - mosquitto.yaml
-   - timescaledb.yaml
    - nginx.yaml
    - openfaas.yaml
    - prometheus.yaml
