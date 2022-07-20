@@ -6,8 +6,6 @@ resources:
    - cert-manager.yaml
    - cert-manager-issuers.yaml
    - eth-exporter.yaml
-   - fsi-postgresql.yaml
-   - fsi-pgadmin4.yaml
    - ghost.yaml
    - grafana.yaml
    - ingress-nginx.yaml
